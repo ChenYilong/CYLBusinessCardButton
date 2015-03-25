@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0F27F31AC2C32C0036226E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F27F21AC2C32C0036226E /* main.m */; };
+		9A0F27F61AC2C32C0036226E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F27F51AC2C32C0036226E /* AppDelegate.m */; };
+		9A0F27F91AC2C32C0036226E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F27F81AC2C32C0036226E /* ViewController.m */; };
+		9A0F27FC1AC2C32C0036226E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F27FA1AC2C32C0036226E /* Main.storyboard */; };
+		9A0F27FE1AC2C32C0036226E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F27FD1AC2C32C0036226E /* Images.xcassets */; };
+		9A0F28011AC2C32C0036226E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F27FF1AC2C32C0036226E /* LaunchScreen.xib */; };
+		9A0F280D1AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F280C1AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0F28071AC2C32C0036226E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0F27E51AC2C32C0036226E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0F27EC1AC2C32C0036226E;
+			remoteInfo = CYLDifferentColorTitleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A0F27ED1AC2C32C0036226E /* CYLDifferentColorTitleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLDifferentColorTitleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F27F11AC2C32C0036226E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0F27F21AC2C32C0036226E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0F27F41AC2C32C0036226E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A0F27F51AC2C32C0036226E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A0F27F71AC2C32C0036226E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A0F27F81AC2C32C0036226E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A0F27FB1AC2C32C0036226E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0F27FD1AC2C32C0036226E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A0F28001AC2C32C0036226E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A0F28061AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLDifferentColorTitleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F280B1AC2C32C0036226E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0F280C1AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLDifferentColorTitleButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0F27EA1AC2C32C0036226E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F28031AC2C32C0036226E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0F27E41AC2C32C0036226E = {
+			isa = PBXGroup;
+			children = (
+				9A0F27EF1AC2C32C0036226E /* CYLDifferentColorTitleButton */,
+				9A0F28091AC2C32C0036226E /* CYLDifferentColorTitleButtonTests */,
+				9A0F27EE1AC2C32C0036226E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0F27EE1AC2C32C0036226E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F27ED1AC2C32C0036226E /* CYLDifferentColorTitleButton.app */,
+				9A0F28061AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0F27EF1AC2C32C0036226E /* CYLDifferentColorTitleButton */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F27F41AC2C32C0036226E /* AppDelegate.h */,
+				9A0F27F51AC2C32C0036226E /* AppDelegate.m */,
+				9A0F27F71AC2C32C0036226E /* ViewController.h */,
+				9A0F27F81AC2C32C0036226E /* ViewController.m */,
+				9A0F27FA1AC2C32C0036226E /* Main.storyboard */,
+				9A0F27FD1AC2C32C0036226E /* Images.xcassets */,
+				9A0F27FF1AC2C32C0036226E /* LaunchScreen.xib */,
+				9A0F27F01AC2C32C0036226E /* Supporting Files */,
+			);
+			path = CYLDifferentColorTitleButton;
+			sourceTree = "<group>";
+		};
+		9A0F27F01AC2C32C0036226E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F27F11AC2C32C0036226E /* Info.plist */,
+				9A0F27F21AC2C32C0036226E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A0F28091AC2C32C0036226E /* CYLDifferentColorTitleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F280C1AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.m */,
+				9A0F280A1AC2C32C0036226E /* Supporting Files */,
+			);
+			path = CYLDifferentColorTitleButtonTests;
+			sourceTree = "<group>";
+		};
+		9A0F280A1AC2C32C0036226E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F280B1AC2C32C0036226E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0F27EC1AC2C32C0036226E /* CYLDifferentColorTitleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0F28101AC2C32C0036226E /* Build configuration list for PBXNativeTarget "CYLDifferentColorTitleButton" */;
+			buildPhases = (
+				9A0F27E91AC2C32C0036226E /* Sources */,
+				9A0F27EA1AC2C32C0036226E /* Frameworks */,
+				9A0F27EB1AC2C32C0036226E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLDifferentColorTitleButton;
+			productName = CYLDifferentColorTitleButton;
+			productReference = 9A0F27ED1AC2C32C0036226E /* CYLDifferentColorTitleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0F28051AC2C32C0036226E /* CYLDifferentColorTitleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0F28131AC2C32C0036226E /* Build configuration list for PBXNativeTarget "CYLDifferentColorTitleButtonTests" */;
+			buildPhases = (
+				9A0F28021AC2C32C0036226E /* Sources */,
+				9A0F28031AC2C32C0036226E /* Frameworks */,
+				9A0F28041AC2C32C0036226E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0F28081AC2C32C0036226E /* PBXTargetDependency */,
+			);
+			name = CYLDifferentColorTitleButtonTests;
+			productName = CYLDifferentColorTitleButtonTests;
+			productReference = 9A0F28061AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0F27E51AC2C32C0036226E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = chenyilong;
+				TargetAttributes = {
+					9A0F27EC1AC2C32C0036226E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					9A0F28051AC2C32C0036226E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 9A0F27EC1AC2C32C0036226E;
+					};
+				};
+			};
+			buildConfigurationList = 9A0F27E81AC2C32C0036226E /* Build configuration list for PBXProject "CYLDifferentColorTitleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0F27E41AC2C32C0036226E;
+			productRefGroup = 9A0F27EE1AC2C32C0036226E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0F27EC1AC2C32C0036226E /* CYLDifferentColorTitleButton */,
+				9A0F28051AC2C32C0036226E /* CYLDifferentColorTitleButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0F27EB1AC2C32C0036226E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F27FC1AC2C32C0036226E /* Main.storyboard in Resources */,
+				9A0F28011AC2C32C0036226E /* LaunchScreen.xib in Resources */,
+				9A0F27FE1AC2C32C0036226E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F28041AC2C32C0036226E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0F27E91AC2C32C0036226E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F27F91AC2C32C0036226E /* ViewController.m in Sources */,
+				9A0F27F61AC2C32C0036226E /* AppDelegate.m in Sources */,
+				9A0F27F31AC2C32C0036226E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F28021AC2C32C0036226E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F280D1AC2C32C0036226E /* CYLDifferentColorTitleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0F28081AC2C32C0036226E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0F27EC1AC2C32C0036226E /* CYLDifferentColorTitleButton */;
+			targetProxy = 9A0F28071AC2C32C0036226E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A0F27FA1AC2C32C0036226E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F27FB1AC2C32C0036226E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0F27FF1AC2C32C0036226E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F28001AC2C32C0036226E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0F280E1AC2C32C0036226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A0F280F1AC2C32C0036226E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0F28111AC2C32C0036226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYLDifferentColorTitleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0F28121AC2C32C0036226E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYLDifferentColorTitleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0F28141AC2C32C0036226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CYLDifferentColorTitleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLDifferentColorTitleButton.app/CYLDifferentColorTitleButton";
+			};
+			name = Debug;
+		};
+		9A0F28151AC2C32C0036226E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CYLDifferentColorTitleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLDifferentColorTitleButton.app/CYLDifferentColorTitleButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0F27E81AC2C32C0036226E /* Build configuration list for PBXProject "CYLDifferentColorTitleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F280E1AC2C32C0036226E /* Debug */,
+				9A0F280F1AC2C32C0036226E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0F28101AC2C32C0036226E /* Build configuration list for PBXNativeTarget "CYLDifferentColorTitleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F28111AC2C32C0036226E /* Debug */,
+				9A0F28121AC2C32C0036226E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A0F28131AC2C32C0036226E /* Build configuration list for PBXNativeTarget "CYLDifferentColorTitleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F28141AC2C32C0036226E /* Debug */,
+				9A0F28151AC2C32C0036226E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0F27E51AC2C32C0036226E /* Project object */;
+}
