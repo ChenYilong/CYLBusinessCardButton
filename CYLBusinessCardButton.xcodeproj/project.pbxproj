@@ -15,6 +15,7 @@
 		9A1352DC1AC56C6C00F9BE7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1352D21AC56C6C00F9BE7F /* main.m */; };
 		9A1352DD1AC56C6C00F9BE7F /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1352D41AC56C6C00F9BE7F /* UILabel+Size.m */; };
 		9A1352DE1AC56C6C00F9BE7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1352D61AC56C6C00F9BE7F /* ViewController.m */; };
+		9AAECF971AC95170007DEAD7 /* UIImage+YPGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAECF961AC95170007DEAD7 /* UIImage+YPGeneral.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		9A1352D41AC56C6C00F9BE7F /* UILabel+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Size.m"; sourceTree = "<group>"; };
 		9A1352D51AC56C6C00F9BE7F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A1352D61AC56C6C00F9BE7F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AAECF951AC95170007DEAD7 /* UIImage+YPGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YPGeneral.h"; sourceTree = "<group>"; };
+		9AAECF961AC95170007DEAD7 /* UIImage+YPGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YPGeneral.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		9A1352C91AC56C6C00F9BE7F /* CYLBusinessCardButton */ = {
 			isa = PBXGroup;
 			children = (
+				9AAECF951AC95170007DEAD7 /* UIImage+YPGeneral.h */,
+				9AAECF961AC95170007DEAD7 /* UIImage+YPGeneral.m */,
 				9A1352CA1AC56C6C00F9BE7F /* AppDelegate.h */,
 				9A1352CB1AC56C6C00F9BE7F /* AppDelegate.m */,
 				9A1352CC1AC56C6C00F9BE7F /* LaunchScreen.xib */,
@@ -152,6 +157,7 @@
 				9A1352D91AC56C6C00F9BE7F /* CYLQuestionDetailDoctorButton.m in Sources */,
 				9A1352DD1AC56C6C00F9BE7F /* UILabel+Size.m in Sources */,
 				9A1352DC1AC56C6C00F9BE7F /* main.m in Sources */,
+				9AAECF971AC95170007DEAD7 /* UIImage+YPGeneral.m in Sources */,
 				9A1352D71AC56C6C00F9BE7F /* AppDelegate.m in Sources */,
 				9A1352DE1AC56C6C00F9BE7F /* ViewController.m in Sources */,
 			);
