@@ -34,7 +34,11 @@
 
 - (CGRect)imageRectForContentRect:(CGRect)contentRect {
     UIImage *image = [self imageForState:UIControlStateNormal];
-    return CGRectMake((contentRect.size.height - image.size.height)/2, (contentRect.size.height - image.size.height)/2, image.size.width, image.size.height);
+    //服务器返回的图片太大了，没办法，只能缩小
+    float imageW = image.size.width;
+    float imageH = image.size.height;
+    return CGRectMake((contentRect.size.height - imageH)/2, (contentRect.size.height - imageH)/2, imageW, imageH);
+
 }
 
 /**
@@ -85,7 +89,7 @@
 }
 
 -(void)buttonClick:(id)sender {
-    if ([self respondsToSelector:@selector(questionDetailDoctorButtonClicked:)]) {
+    if ([self.delegate respondsToSelector:@selector(questionDetailDoctorButtonClicked:)]) {
         [self.delegate questionDetailDoctorButtonClicked:sender];
     }
     NSLog(@"‼️‼️‼️‼️‼️questionDetailDoctorButtonClicked");

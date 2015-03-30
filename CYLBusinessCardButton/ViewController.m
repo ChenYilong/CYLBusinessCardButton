@@ -23,7 +23,6 @@
     CGRect frame = CGRectMake(5,10,320,100);
     CYLQuestionDetailDoctorButton *btn=[CYLQuestionDetailDoctorButton doctorButtonWithFrame:frame andData:dataSource];
     btn.center = CGPointMake([UIScreen mainScreen].bounds.size.width/2, [UIScreen mainScreen].bounds.size.height/2);
-    [self.view addSubview:btn];
 //    btn.layer.borderWidth = 1.0;
 //    btn.layer.borderColor = [UIColor blackColor].CGColor;
     [btn setImage:[UIImage imageNamed:@"DefaultProfileHead_qq"] forState:UIControlStateNormal];
